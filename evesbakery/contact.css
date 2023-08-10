@@ -1,0 +1,84 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Common styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-content: baseline;
+  }
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #ff5a60;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #ff7c81;
+    color: #fff;
+  }
+  /* Header styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  nav li {
+    margin: 8px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .hero {
+    background-color: #ffcad4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+  }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+   /* Footer styles */
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+  }
+  footer p {
+    font-size: 14px;
+  }
+.active {
+  border-bottom: 2px solid #ff5a60;
+}
+  
